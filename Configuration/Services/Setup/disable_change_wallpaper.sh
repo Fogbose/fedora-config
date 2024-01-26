@@ -19,6 +19,6 @@ sudo rm "/etc/systemd/system/change_wallpaper.timer"
 echo "Removing change_wallpaper.sh script..."
 
 # Remove the change_wallpaper.sh script
-rm "$current_directory/change_wallpaper.sh"
+rm "$../current_directory/change_wallpaper.sh"
 
 echo "Service disabled."
